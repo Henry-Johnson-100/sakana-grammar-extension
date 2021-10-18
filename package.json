@@ -1,0 +1,25 @@
+{
+    "name": "sakana-grammar",
+    "displayName": "sakana-grammar",
+    "description": "grammar rules for the Sakana functional programming language.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "Sakana",
+            "aliases": ["Sakana", "sakana", "skn"],
+            "extensions": [".skn", ".sakana"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "Sakana",
+            "scopeName": "source.skn",
+            "path": "./syntaxes/skn.tmLanguage.json"
+        }]
+    }
+}
