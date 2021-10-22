@@ -14,11 +14,11 @@
 		},
 		{
 			"name": "constant.other",
-			"match": "(?<=>\\(\\s*)([A-z|.]*)(?=\\s*<\\(.*\\)<\\)>)"
+			"match": "(?<=>\\(\\s*)((?!False|True)[A-z|\\.]*)(?=\\s*<\\(.*\\)<\\)>)"
 		},
 		{
 			"name": "constant.language",
-			"match": "(?<=>\\(\\s*)[A-z|.]*(?=\\s*\\)>)"
+			"match": "(?<=>\\(\\s*)(?!False|True)[A-z|\\.]*(?=\\s*\\)>)"
 		},
 		{
 			"name":"entity.name.class",
