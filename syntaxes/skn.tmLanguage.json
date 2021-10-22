@@ -17,6 +17,10 @@
 			"match": "(?<=>\\(\\s*)(\\w*)(?=\\s*<\\(.*\\)<\\)>)"
 		},
 		{
+			"name": "constant",
+			"match": "(?<=>\\(\\s*)\\w*(?=\\s*\\)>)"
+		},
+		{
 			"name":"entity.name.class",
 			"match": "(?<=school )[A-Z][A-z]*"
 		},
