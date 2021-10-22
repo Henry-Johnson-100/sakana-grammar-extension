@@ -13,7 +13,7 @@
 			"match": "(?<=(route|fish) )[A-z]*"
 		},
 		{
-			"name": "constant.other",
+			"name": "variable.language",
 			"match": "(?<=>\\(\\s*)((?!False|True)[A-z|\\.]*)(?=\\s*<\\(.*\\)<\\)>)"
 		},
 		{
