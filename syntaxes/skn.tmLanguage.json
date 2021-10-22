@@ -17,7 +17,7 @@
 			"match": "(?<=>\\(\\s*)(\\w*)(?=\\s*<\\(.*\\)<\\)>)"
 		},
 		{
-			"name": "constant",
+			"name": "constant.language",
 			"match": "(?<=>\\(\\s*)\\w*(?=\\s*\\)>)"
 		},
 		{
