@@ -9,6 +9,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Initial release
 - Associates with .skn and .sakana filetypes
 
-## Version 0.0.1.1 2021-10-17
+## Version 0.0.1.1 2021-10-22
 
 - Updated for the new ```swim``` keyword.
+- Also highlighting simple value calls and function arguments.
