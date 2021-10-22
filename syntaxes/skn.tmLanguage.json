@@ -13,7 +13,7 @@
 			"match": "(?<=(route|fish) )[A-z]*"
 		},
 		{
-			"name": "variable",
+			"name": "entity.name.class",
 			"match": "(?<=>\\(\\s*)(\\w*)(?=\\s*<\\(.*\\)<\\)>)"
 		},
 		{
